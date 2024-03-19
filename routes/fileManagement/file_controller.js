@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var upload = require("../fileManagment/file_model.js").upload;
+var upload = require("../fileManagement/file_model.js").upload;
 
 
 const jwt = require('jsonwebtoken');
